@@ -14,6 +14,8 @@ import SuccessStories from './pages/success-stories';
 import DigitalProductsSuite from './pages/digital-products-suite';
 import Homepage from './pages/homepage';
 import AppointmentBookingSystem from './pages/appointment-booking-system';
+import GetStarted from './pages/get-started';
+import WatchDemo from './pages/watch-demo';
 
 // Admin pages
 import AdminLogin from './pages/admin/AdminLogin';
@@ -39,6 +41,8 @@ const Routes = () => {
           <Route path="/digital-products-suite" element={<DigitalProductsSuite />} />
           <Route path="/homepage" element={<Homepage />} />
           <Route path="/appointment-booking-system" element={<AppointmentBookingSystem />} />
+          <Route path="/get-started" element={<GetStarted />} />
+          <Route path="/watch-demo" element={<WatchDemo />} />
 
           {/* ── Admin Routes ──────────────────────────────────────── */}
           <Route path="/admin/login" element={<AdminLogin />} />
